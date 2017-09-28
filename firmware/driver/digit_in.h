@@ -15,7 +15,7 @@
 #define DIGIT_IN_DMA_CH			 	DMA1_Channel2
 #define DIGIT_IN_DMA_IRQ_HANDLER	DMA1_Channel2_IRQHandler
 #define DIGIT_IN_DMA_IRQn			DMA1_Channel2_IRQn
-#define DIGIT_IN_CLK				48000000UL
+#define DIGIT_IN_CLK				CLK_AHB
 
 #define DIGIT_IN_MIN_FREQ			(DIGIT_IN_CLK / UINT16_MAX)
 #define DIGIT_IN_MAX_FREQ			(DIGIT_IN_CLK / 2)

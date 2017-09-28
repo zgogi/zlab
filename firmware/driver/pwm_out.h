@@ -10,7 +10,7 @@
 #define PWM_OUT_PIN         8
 #define PWM_OUT_TIMER       TIM1
 #define PWM_OUT_TIMER_CH    TIM_CHANNEL_1
-#define PWM_OUT_CLK			48000000UL
+#define PWM_OUT_CLK			CLK_AHB
 
 
 

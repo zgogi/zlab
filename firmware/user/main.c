@@ -11,7 +11,7 @@ int main(void)
 	comm_init();
 	
 	// Debug
-	pwm_out_set_time(0.002, 0.01);
+	pwm_out_set_time(0.001, 0.005);
 	pwm_out_start();
 	// End debug
 	
